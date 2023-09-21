@@ -1,0 +1,59 @@
+body {
+    background-color:#5f6a72;
+    width: 100%;
+    height: 100%;
+    overflow:hidden;
+}
+
+.head{
+    text-align: center;
+}
+
+.boxofshelves{
+    left: 0;
+    top: 20%;
+    width:100%;
+    height: 80%;
+    position:absolute;
+}
+.shelf{
+    /*background-color: aqua;*/
+    display: flex;
+    width: 100%;
+    height: 12%;
+
+}
+.emptyshelf{
+    /*background-color:antiquewhite*/
+    display: flex;
+    width: 100%;
+    height: 5%;
+
+}
+
+.box {
+    
+    background: #5f6a72; /* Цвет фона */
+    display: block; /* Блочный элемент */
+    width: 5%; /* Ширина */
+    float: left; /* Блоки выстраиваются по горизонтали */
+    margin: 0 10px 10px 0; /* Отступы */
+    text-align: center; /* Выравнивание по центру */
+}
+.emptybox{
+    height: 100%;
+    width: 34%;
+}
+.emptybox1{
+    height: 100%;
+    width: 7.3%;
+}
+.text{
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
